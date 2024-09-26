@@ -25,3 +25,8 @@ type UserChangePWD struct {
 	ID     int    `json:"id"`
 	NewPWD string `json:"newPassword"`
 }
+
+type UserSession struct {
+	ID    int    `json:"id"`
+	Email string `json:"email"`
+}

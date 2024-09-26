@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"go-template/internal/models"
+	"go-jwt-template/internal/models"
 )
 
 type UserRepo interface {

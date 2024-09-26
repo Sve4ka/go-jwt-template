@@ -3,9 +3,9 @@ package user
 import (
 	"context"
 	"github.com/jmoiron/sqlx"
-	"go-template/internal/models"
-	"go-template/internal/repository"
-	"go-template/pkg/cerr"
+	"go-jwt-template/internal/models"
+	"go-jwt-template/internal/repository"
+	"go-jwt-template/pkg/cerr"
 )
 
 type RepoUser struct {

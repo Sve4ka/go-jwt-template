@@ -22,6 +22,9 @@ const (
 	RedisHost     = "REDIS_HOST"
 	RedisPassword = "REDIS_PASSWORD"
 	RedisPort     = "REDIS_PORT"
+
+	JaegerHost = "JAEGER_HOST"
+	JaegerPort = "JAEGER_PORT"
 )
 
 func InitConfig() {

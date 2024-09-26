@@ -43,6 +43,10 @@ const (
 	DiffPWD      ErrorType = "pwd not equal"
 	Hash         ErrorType = "error in hashing time"
 	NotFound     ErrorType = "this row not found"
+	UserNotFound ErrorType = "this user not found"
+
+	InvalidToken ErrorType = "invalid token"
+	Parse        ErrorType = "parse error"
 )
 
 // CustomError структура для кастомной ошибки
